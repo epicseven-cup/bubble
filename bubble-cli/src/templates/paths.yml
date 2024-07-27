@@ -1,0 +1,6 @@
+base: "localhost:8080"
+endpoints:
+ - path: "/echo"
+   respond: "any"
+   # Optional
+   status_code: 200
